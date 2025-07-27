@@ -16,6 +16,8 @@ import grab from './assets/grab.png';
 import group79 from './assets/Group 79.png';
 import group80 from './assets/Group 80.png';
 import group81 from './assets/Group 81.png';
+import group22 from './assets/Group 22.png';
+import group23 from './assets/Group 23.png';
 import './App.css'
 
 function App() {
@@ -244,7 +246,52 @@ function App() {
             </div>
           </div>
           
-          
+          <div className="absolute w-[1300px] h-[708px] top-[2443px] left-[310px] opacity-100">
+            <div className="relative w-[371px] h-[79px] top-[380px] left-[280px] opacity-100">
+              <p className="font-[Poppins] font-semibold text-[44px] leading-[180%] tracking-[0%] text-center text-[#2F327D]">
+                <span>
+                  What is{' '}
+                </span>
+                <span className='text-[#F48C06]'>
+                  Skilline?
+                </span>
+              </p>
+            </div>
+            <div className="absolute w-[1101px] h-[129px] top-[500px] left-[-50px] opacity-100">
+              <p className="font-[Poppins] font-normal text-[24px] leading-[180%] tracking-[2%] text-center text-[#696984]">
+                Skilline is a platform that allows educators to create online classes whereby they can store the course materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide students with feedback all in one place.
+              </p>
+            </div>
+            <div className="absolute w-[600px] h-[400px] top-[751px] left-[-200px] opacity-100 rounded-[20px] border border-solid border-black">
+              <img src={group22} alt="Group 22" />
+            </div>
+            <div className="absolute w-[292px] h-[48px] top-[883px] left-[-50px] opacity-100">
+              <p className="font-[Poppins] font-semibold text-[32px] leading-[100%] tracking-[0%] text-center text-[#FFFFFF]">
+                FOR INSTRUCTORS
+              </p>
+            </div>
+            <button className="absolute w-[283px] h-[80px] top-[948px] left-[-50px] rounded-[80px] opacity-100 border border-white opacity-100 text-[#FFFFFF]
+            hover:scale-105 transition duration-200 cursor-pointer">
+              <p className="font-[Poppins] font-medium text-[22px] leading-[100%] tracking-[0%] text-center">
+                Start a Class Today
+              </p>
+            </button>
+            <div className="absolute w-[600px] h-[400px] top-[751px] left-[500px] opacity-100 rounded-[20px] border border-solid border-black">
+              <img src={group23} alt="Group 23" />
+            </div>
+            <div className="absolute w-[292px] h-[48px] top-[883px] left-[650px] opacity-100">
+              <p className="font-[Poppins] font-semibold text-[32px] leading-[100%] tracking-[0%] text-center text-[#FFFFFF]">
+                FOR STUDENTS
+              </p>
+            </div>
+             <button className="absolute w-[283px] h-[80px] top-[948px] left-[650px] rounded-[80px] opacity-100 border border-white opacity-100 text-[#FFFFFF]
+            hover:scale-105 transition duration-200 cursor-pointer"
+             style={{backgroundColor: 'rgba(35, 189, 238, 0.9)' }}>
+              <p className="font-[Poppins] font-medium text-[22px] leading-[100%] tracking-[0%] text-center">
+                Enter access code
+              </p>
+            </button>
+          </div>
       </div>
     </>
   )
