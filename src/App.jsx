@@ -18,6 +18,10 @@ import group80 from './assets/Group 80.png';
 import group81 from './assets/Group 81.png';
 import group22 from './assets/Group 22.png';
 import group23 from './assets/Group 23.png';
+import ellipse12 from './assets/Ellipse 12.png';
+import rectangle18 from './assets/Rectangle 18.png';
+import rectangle17 from './assets/Rectangle 17.png';
+import stu from './assets/stu.png';
 import './App.css'
 
 function App() {
@@ -292,6 +296,39 @@ function App() {
               </p>
             </button>
           </div>
+
+          <div className="absolute w-[1547px] h-[512px] top-[3100px] left-[186px] opacity-100">
+            <div  className="absolute w-[73px] h-[73px] top-[762px] left-[-186px] opacity-100">
+              <img src={ellipse12} alt="Ellipse 12" />
+            </div>
+            <div  className="absolute w-[655px] h-[116px] top-[780px] left-[-170px] opacity-100">
+              <p className="font-[Poppins] font-medium text-[36px] leading-[160%] tracking-[0%] text-left">
+                <span className='text-[#2F327D]'>
+                  Everything you can do in a physical classroom,
+                </span>
+                <span className='text-[#F48C06]'>
+                  you can do with Skilline
+                </span>
+              </p>
+            </div>
+            <div className="absolute w-[730px] h-[172px] top-[950px] left-[-170px] opacity-100">
+              <p className="font-[Poppins] font-normal text-[24px] leading-[180%] tracking-[2%] text-[#696984] text-left">
+                Skilline’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.
+              </p>
+            </div>
+            <div className="absolute w-[138px] h-[138px] top-[700px] left-[688px] rounded-[20px] opacity-100 bg-white">
+              <img src={rectangle18} alt="Rectangle 18" />
+            </div>
+            <div className="absolute w-[231px] h-[231px] top-[1000px] left-[1202px] rounded-[20px] opacity-100 bg-white">
+               <img src={rectangle17} alt="Rectangle 17" />
+            </div>
+            <div className="absolute w-[705px] h-[471.08px] top-[720px] left-[708px] rounded-[20px] opacity-100
+            hover:scale-103 transition duration-200 cursor-pointer">
+              <img src={stu} alt="stu" />
+            </div>
+          </div>
+
+          
       </div>
     </>
   )
