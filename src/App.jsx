@@ -13,6 +13,9 @@ import airbnb from './assets/airbnb.png';
 import amazon from './assets/amazon.png';
 import facebook from './assets/facebook.png';
 import grab from './assets/grab.png';
+import group79 from './assets/Group 79.png';
+import group80 from './assets/Group 80.png';
+import group81 from './assets/Group 81.png';
 import './App.css'
 
 function App() {
@@ -161,9 +164,87 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="w-[1470px] h-[761px] top-[1524px] left-[225px] opacity-100">
-            
+          <div className="absolute w-[1470px] h-[761px] top-[1524px] left-[225px] opacity-100">
+            <div className="w-[501px] h-[65px] absolute top-[400px] left-[260px] opacity-100 rotate-0">
+              <p className='font-[Poppins] font-bold text-[36px] leading-[180%] tracking-[0%] flex gap-1'>
+                <span className='text-[rgba(47,50,125,1)]'>
+                  All-In-One
+                </span>
+                <span className='text-[#F48C06]'>
+                  Cloud Software.
+                </span>
+              </p>
+            </div>
+            <div className="absolute w-[837px] h-[86px] top-[509px] left-[100px] opacity-100 rotate-0">
+              <p className="font-[Poppins] font-normal text-[24px] leading-[180%] tracking-[0%] text-[#696984]">
+                <span>
+                  Skilline is one powerful online software suite that combines all the{' '}
+                </span>
+                <span>
+                  tools needed to run a successful school or office.
+                </span>
+              </p>
+            </div>
+            <div className="absolute w-[450px] h-[430px] top-[700px] left-[-200px] opacity-100 rounded-[20px] bg-[#FFFFFF] shadow-[0px_10px_60px_rgba(38,45,118,0.08)]">
+              <div className="absolute w-[343px] h-[90px] top-[97px] left-[70px] opacity-100
+              font-[Poppins] font-medium text-[30px] leading-[100%] tracking-[0%] text-center text-[#2F327D] flex flex-col items-center gap-2">
+                <span>
+                  Online Billing,
+                </span>
+                <span>
+                  Invoicing,& Contracts
+                </span>
+              </div>
+              <div className="absolute w-[341px] h-[144px] top-[200px] left-[80px] opacity-100 rotate-0
+              font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0%] text-center text-[#696984]">
+                <p>
+                  Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts
+                </p>
+              </div>
+              <div className="absolute w-[100px] h-[100px] top-[-50px] left-[180px] opacity-100 rotate-0">
+                <img src={group79} alt="Group 79" />
+              </div>
+            </div>
+            <div className="absolute w-[450px] h-[430px] top-[700px] left-[300px] opacity-100 rounded-[20px] bg-[#FFFFFF] shadow-[0px_10px_60px_0px_#262D7614]">
+              <div className="absolute w-[343px] h-[90px] top-[97px] left-[65px] opacity-100
+              font-[Poppins] font-medium text-[30px] leading-[100%] tracking-[0%] text-center text-[#2F327D] flex flex-col items-center gap-2">
+                <span>
+                  Easy Scheduling &
+                </span>
+                <span>
+                  Attendance Tracking
+                </span>
+              </div>
+              <div className="absolute w-[341px] h-[144px] top-[200px] left-[80px] opacity-100 rotate-0
+              font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0%] text-center text-[#696984]">
+                <p>
+                  Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance
+                </p>
+              </div>
+              <div className="absolute w-[100px] h-[100px] top-[-50px] left-[180px] opacity-100 rotate-0">
+                <img src={group80} alt="Group 80" />
+              </div>
+            </div>
+            <div className="absolute w-[450px] h-[430px] top-[700px] left-[800px] opacity-100 rounded-[20px] bg-[#FFFFFF] shadow-[0px_10px_60px_0px_#262D7614]">
+              <div className="absolute w-[343px] h-[90px] top-[97px] left-[65px] opacity-100
+              font-[Poppins] font-medium text-[30px] leading-[100%] tracking-[0%] text-center text-[#2F327D] flex flex-col items-center gap-2">
+                <span>
+                  Customer Tracking
+                </span>
+              </div>
+              <div className="absolute w-[341px] h-[144px] top-[200px] left-[80px] opacity-100 rotate-0
+              font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0%] text-center text-[#696984]">
+                <p>
+                  Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization 
+                </p>
+              </div>
+              <div className="absolute w-[100px] h-[100px] top-[-50px] left-[180px] opacity-100 rotate-0">
+                <img src={group81} alt="Group 81" />
+              </div>
+            </div>
           </div>
+          
+          
       </div>
     </>
   )
