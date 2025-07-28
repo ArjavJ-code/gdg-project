@@ -21,6 +21,15 @@ import group23 from './assets/Group 23.png';
 import ellipse12 from './assets/Ellipse 12.png';
 import rectangle18 from './assets/Rectangle 18.png';
 import rectangle17 from './assets/Rectangle 17.png';
+import ellipse19 from './assets/Ellipse 19.png';
+import ellipse20 from './assets/Ellipse 20.png';
+import ellipse21 from './assets/Ellipse 21.png';
+import ellipse22 from './assets/Ellipse 22.png';
+import ellipse24 from './assets/Ellipse 24.png';
+import group71 from './assets/Group 71.png';
+import group72 from './assets/Group 72.png';
+import group73 from './assets/Group 73.png';
+import users2 from './assets/users 2.png';
 import stu from './assets/stu.png';
 import './App.css'
 
@@ -315,6 +324,10 @@ function App() {
               <p className="font-[Poppins] font-normal text-[24px] leading-[180%] tracking-[2%] text-[#696984] text-left">
                 Skilline’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.
               </p>
+              <br></br>
+              <p className="font-[Poppins] font-normal text-[22px] leading-[180%] underline underline-offset-[0%] decoration-[0%] decoration-solid text-left text-[#696984] cursor-pointer">
+                Learn More
+              </p>
             </div>
             <div className="absolute w-[138px] h-[138px] top-[700px] left-[688px] rounded-[20px] opacity-100 bg-white">
               <img src={rectangle18} alt="Rectangle 18" />
@@ -328,7 +341,91 @@ function App() {
             </div>
           </div>
 
-          
+          <div className="absolute w-[1580px] h-[4070px] top-[3983px] left-[170px] opacity-100">
+            <div className="absolute w-[239px] h-[65px] top-[483px] left-[500px] opacity-100">
+              <p className="font-[Poppins] font-bold text-[36px] leading-[180%] tracking-[0%]">
+                <span className='text-[#2F327D]'>
+                  Our{' '}
+                </span>
+                <span className='text-[#F48C06]'>
+                  Features
+                </span>
+              </p>
+            </div>
+            <div className="absolute w-[888px] h-[43px] top-[550px] left-[216px] opacity-100">
+              <p className="font-[Poppins] font-normal text-[24px] leading-[180%] tracking-[0%] text-center text-[#696984]">
+                This very extraordinary feature, can make learning activities more efficient
+              </p>
+            </div>
+            <div className="absolute w-[1580px] h-[650px] top-[4211px] left-[170px] opacity-100">
+              <div className="absolute w-[140px] h-[140px] top-[-3500px] left-[-200px] opacity-100">
+                <img src={ellipse22} alt="Ellipse 22" />
+              </div>
+              <div className="absolute w-[30px] h-[30px] top-[-3500px] left-[-40px] opacity-100">
+                <img src={ellipse21} alt="Ellipse 21" />
+              </div>
+              <div  className="absolute w-[264px] h-[264px] top-[-3150px] left-[300px] opacity-100">
+                <img src={ellipse19} alt="Ellipse 19" />
+              </div>
+              <div className="absolute w-[896px] h-[522px] top-[-3420px] left-[-240px] opacity-100">
+                <img src={group71} alt="Group 71" />
+              </div>
+              <div className="absolute w-[30px] h-[30px] top-[-2950px] left-[248px] opacity-100">
+                <img src={ellipse20} alt="Ellipse 20" />
+              </div>
+              <div className="absolute w-[542px] h-[128px] top-[-3375px] left-[692px] opacity-100 text-left">
+                <p className="font-[Poppins] font-semibold text-[40px] leading-[160%] tracking-[0%]">
+                  <span className='text-[#2F327D]'>
+                    A{' '}
+                  </span>
+                  <span className='text-[#F48C06]'>
+                    user interface{' '}
+                  </span>
+                  <span className='text-[#2F327D]'>
+                    designed
+                  </span>
+                  <br></br>
+                  <span className='text-[#2F327D]'>
+                    for the classroom
+                  </span>
+                </p>
+              </div>
+              <div className="absolute w-[60px] h-[60px] top-[-3217px] left-[680px] opacity-100 shadow-custom-strong">
+                <img src={ellipse24} alt="Ellipse 24" />
+              </div>
+              <div className="absolute w-[12px] h-[26px] top-[-3198px] left-[705px] opacity-100 rounded-[2px]">
+                <img src={group72} alt="Group 72" />
+              </div>
+              <div className="absolute w-[60px] h-[60px] top-[-3117px] left-[680px] opacity-100 shadow-custom-strong">
+                <img src={ellipse24} alt="Ellipse 24" />
+              </div>
+              <div className="absolute w-[12px] h-[26px] top-[-3097px] left-[705px] opacity-100 rounded-[2px]">
+                <img src={group73} alt="Group 73" />
+              </div>
+               <div className="absolute w-[60px] h-[60px] top-[-3017px] left-[680px] opacity-100 shadow-custom-strong">
+                <img src={ellipse24} alt="Ellipse 24" />
+              </div>
+              <div className="absolute w-[12px] h-[26px] top-[-2997px] left-[705px] opacity-100">
+                <img src={users2} alt="users 2" />
+              </div>
+              <div className="absolute w-[443px] h-[80px] top-[-3217px] left-[750px] opacity-100">
+                <p className="font-[Poppins] font-normal text-[22px] leading-[180%] tracking-[0.02em] text-[#696984]">
+                  Teachers don’t get lost in the grid view and have a dedicated Podium space.
+                </p>
+              </div>
+              <div className="absolute w-[443px] h-[80px] top-[-3117px] left-[752px] opacity-100 text-left">
+                <p className="font-[Poppins] font-normal text-[22px] leading-[180%] tracking-[0.02em] text-[#696984]">
+                  TA’s and presenters can be moved to the front of the class.
+                </p>
+              </div>
+              <div className="absolute w-[443px] h-[80px] top-[-3017px] left-[752px] opacity-100 text-left">
+                <p className="font-[Poppins] font-normal text-[22px] leading-[180%] tracking-[0.02em] text-[#696984]">
+                  Teachers can easily see all students and class data at one time.
+                </p>
+              </div>
+            </div>
+            
+          </div>          
       </div>
     </>
   )
