@@ -40,6 +40,7 @@ import ellipse106 from './assets/Ellipse 106.png';
 import ellipse107 from './assets/Ellipse 107.png';
 import ellipse108 from './assets/Ellipse 108.png';
 import ellipse105 from './assets/Ellipse 105.png';
+import group124 from './assets/Group 124.png';
 import './App.css'
 
 function App() {
@@ -520,6 +521,27 @@ function App() {
                         </p>
                       </div>
                     </div>
+                </div>
+                <div className="absolute w-[1545px] h-[560px] top-[6604px] left-[187px] opacity-100">
+                  <div className="absolute w-[420.82px] h-[127.77px] top-[-5656.72px] left-[-177px] opacity-100 text-left">
+                    <p className="font-[Poppins] font-semibold text-[40px] leading-[160%] tracking-[0%]">
+                      <span className='text-[#F48C06]'>
+                        Class Management
+                      </span>
+                      <br></br>
+                      <span className='text-[#2F327D]'>
+                        Tools For Educators 
+                      </span>                     
+                    </p>
+                  </div>
+                  <div className="absolute w-[645.72px] h-[159.72px] left-[-177px] top-[-5504.46px] opacity-100 text-left">
+                    <p className="font-[400] text-[22px] leading-[180%] tracking-[0.02em] font-[Poppins] text-[#696984]">
+                      Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in real-time.
+                    </p>
+                  </div>
+                  <div className="w-[808.32px] h-[560px] absolute top-[-5784px] left-[670.68px]">
+                     <img src={group124} alt="Group 124" />
+                  </div>
                 </div>
                 
               </div>
