@@ -42,6 +42,7 @@ import ellipse108 from './assets/Ellipse 108.png';
 import ellipse105 from './assets/Ellipse 105.png';
 import group124 from './assets/Group 124.png';
 import group106 from './assets/Group 106.png';
+import rectangle31 from './assets/Rectangle 31.png';
 import './App.css'
 
 function App() {
@@ -567,10 +568,19 @@ function App() {
                     </div>
                   </div>
                 </div>
-                
+                <div className='absolute w-[280px] h-[80px] top-[2300px] left-[820px] rotate-0 opacity-100 rounded-[80px]'>
+                  <img src={rectangle31} />
+                    <button className='relative w-[204px] h-[43px] top-[-63px] left-[8px] rotate-0 opacity-100
+                                        hover:scale-105 transition duration-200 cursor-pointer'>
+                      <span className='font-nunito font-normal text-[24px] leading-[180%] tracking-[0.02em] text-[#F48C06]'>
+                        See more features
+                      </span>
+                    </button>
+                </div>
               </div>
             </div>
-          </div>          
+          </div>
+                    
       </div>
     </>
   )
