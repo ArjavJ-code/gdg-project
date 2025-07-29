@@ -43,6 +43,11 @@ import ellipse105 from './assets/Ellipse 105.png';
 import group124 from './assets/Group 124.png';
 import group106 from './assets/Group 106.png';
 import rectangle31 from './assets/Rectangle 31.png';
+import line5 from './assets/Line 5.png';
+import image2 from './assets/Image 2.png';
+import image3 from './assets/Image 3.png';
+import image5 from './assets/Image 5.png';
+import image6 from './assets/Image 6.png';
 import './App.css'
 
 function App() {
@@ -580,7 +585,58 @@ function App() {
               </div>
             </div>
           </div>
-                    
+            <div className='w-[1457px] h-[459px] absolute top-[8213px] left-[231px] opacity-100'>
+              <div className='w-[688px] h-[459px] absolute top-[8213px] left-[1000px] opacity-100 rounded-[80px]'>
+                <div className='w-[188px] h-[27px] absolute top-[-7513px] left-[1px] opacity-100'>
+                  <p className='font-[Nunito Sans] font-normal text-[20px] leading-[100%] tracking-[20%] text-[#525596]'>
+                    INTEGRATIONS
+                  </p>
+                </div>
+                <div className='w-[80px] h-0 absolute top-[-7504px] left-[-100px] rotate-0 opacity-100 border border-solid border-[#525596]'>
+                  <img src={line5} />
+                </div>
+                <div className='absolute w-[480px] h-[116px] top-[-7423px] left-[-100px] rotate-0 opacity-100 text-left'>
+                  <p className='font-bold text-[36px] leading-[160%] tracking-[0] font-[Nunito_Sans]'>
+                    <span className='text-[#2F327D]'>
+                          200+ educational tools and
+                    </span>
+                    <br></br>
+                    <span className='text-[#2F327D]'>
+                          platform{' '}
+                    </span>
+                    <span className='text-[#F48C06]'>
+                          integrations
+                    </span>
+                  </p>
+                </div>
+                <div className='absolute w-[687px] h-[129px] top-[-7289px] left-[-100px] rotate-0 opacity-100 text-left'>
+                  <p className='font-normal text-[24px] leading-[180%] tracking-[0] font-[Nunito_Sans] text-[#696984]'>
+                    Schoology has every tool your classroom needs and comes pre-integrated with more than 200+ tools, student information systems (SIS), and education platforms.
+                  </p>
+                </div>
+                 <div className='absolute w-[280px] h-[80px] top-[-7089px] left-[-100px] rotate-0 opacity-100 rounded-[80px]'>
+                  <img src={rectangle31} />
+                    <button className='relative w-[280px] h-[43px] top-[-63px] left-[8px] rotate-0 opacity-100
+                                        hover:scale-105 transition duration-200 cursor-pointer'>
+                      <span className='font-nunito font-normal text-[24px] leading-[180%] tracking-[0.02em] text-[#F48C06]'>
+                        See All Integrations
+                      </span>
+                    </button>
+                </div>
+              </div>
+              <div className='absolute w-[228px] h-[195px] top-[700px] left-[-10px] rotate-0 opacity-100'>
+                 <img src={image2} />
+              </div>
+              <div className='absolute w-[130px] h-[121px] top-[800px] left-[350px] rotate-0 opacity-100'>
+                <img src={image5} />
+              </div>
+              <div className='absolute w-[130px] h-[121px] top-[1000px] left-[70px] rotate-0 opacity-100'>
+                <img src={image3} />
+              </div>
+              <div className='absolute w-[130px] h-[121px] top-[1020px] left-[370px] rotate-0 opacity-100'>
+                <img src={image6} />
+              </div>
+            </div>          
       </div>
     </>
   )
