@@ -31,6 +31,7 @@ import group72 from './assets/Group 72.png';
 import group73 from './assets/Group 73.png';
 import users2 from './assets/users 2.png';
 import stu from './assets/stu.png';
+import group122 from './assets/Group 122.png';
 import './App.css'
 
 function App() {
@@ -422,6 +423,31 @@ function App() {
                 <p className="font-[Poppins] font-normal text-[22px] leading-[180%] tracking-[0.02em] text-[#696984]">
                   Teachers can easily see all students and class data at one time.
                 </p>
+              </div>
+            </div>
+            <div className="absolute w-[1441.2px] h-[611px] top-[5021px] left-[239px] opacity-100">
+              <div className="absolute w-[393px] h-[128px] top-[-3300px] left-[-280px] opacity-100 text-left">
+                <p className="font-[Poppins] font-semibold text-[40px] leading-[160%] tracking-[0%]">
+                  <span className='text-[#F48C06]'>
+                    Tools{' '}
+                  </span>
+                  <span className='text-[#2F327D]'>
+                    For Teachers
+                  </span>
+                  <br></br>
+                   <span className='text-[#2F327D]'>
+                    And Learners
+                  </span>
+                </p>
+              </div>
+              <div className="absolute w-[568px] h-[160px] top-[-3158px] left-[-280px] opacity-100 text-left">
+                <p className="font-[Poppins] font-normal text-[22px] leading-[180%] tracking-[2%] text-[#696984]">
+                  Class has a dynamic set of teaching tools built to be deployed and used during class.
+                  Teachers can handout assignments in real-time for students to complete and submit.
+                </p>
+              </div>
+              <div  className="absolute w-[637.2px] h-[611px] top-[-3458px] left-[543px] rotate-0 opacity-100">
+                 <img src={group122} alt="Group 122" />
               </div>
             </div>
             
