@@ -32,6 +32,14 @@ import group73 from './assets/Group 73.png';
 import users2 from './assets/users 2.png';
 import stu from './assets/stu.png';
 import group122 from './assets/Group 122.png';
+import group88 from './assets/Group 88.png';
+import group90 from './assets/Group 90.png';
+import group89 from './assets/Group 89.png';
+import maskgroup from './assets/Mask Group.png';
+import ellipse106 from './assets/Ellipse 106.png';
+import ellipse107 from './assets/Ellipse 107.png';
+import ellipse108 from './assets/Ellipse 108.png';
+import ellipse105 from './assets/Ellipse 105.png';
 import './App.css'
 
 function App() {
@@ -450,7 +458,72 @@ function App() {
                  <img src={group122} alt="Group 122" />
               </div>
             </div>
-            
+            <div className="absolute w-[1461px] h-[651.49px] top-[-3492px] left-[-280px] rotate-0 opacity-100">
+              <div className="absolute w-[99.64px] h-[99.64px] top-[5817.87px] left-[192px] rotate-0 opacity-100">
+                <img src={ellipse106} alt="Ellipse 106" />
+              </div>
+              <div className="absolute w-[22.99px] h-[22.99px] top-[5792px] left-[309.84px] rotate-0 opacity-100">
+                <img src={ellipse107} alt="Ellipse 107" />
+              </div>
+              <div className="absolute w-[465.62px] h-[562.39px] top-[5836.07px] left-[237.99px] rotate-0 opacity-100 rounded-[18.21px] shadow-[0px_9.1px_43.69px_0px_#282B6F1A]">
+                <div className="absolute w-[174.37px] h-[47.9px] top-[50px] left-[26.31px] opacity-100 rounded-[72.82px]"
+                style={{ backgroundColor: 'rgba(205,216,255,1)' }}>
+                    <div className="absolute w-[108.26px] h-[33.53px] top-[9px] left-[30px] opacity-100">
+                      <p className="font-[Poppins] font-normal text-[20.03px] leading-[160%] tracking-[0%] text-[#717FB0]">
+                        Question 1
+                      </p>
+                    </div>
+                    <div className="absolute w-[76.65px] h-[76.65px] top-[-75px] left-[370px] opacity-100"
+                          style={{ transform: 'rotate(-10.96deg)' }}>
+                        <img src={group90} alt="Group 90" />
+                    </div>
+                    <div  className="absolute w-[76.65px] h-[76.65px] top-[-45px] left-[393.79px] opacity-100"
+                          style={{ transform: "rotate(-13.9deg) boxShadow: '0px 3.64px 40.05px 0px #2F327D1A'" }}>
+                            <img src={group88} alt="Group 88" />
+                    </div>
+                    <div className="absolute w-[387.06px] h-[103.47px] top-[62.54px] left-[6.31px] opacity-100 text-left">
+                      <p className="font-[Poppins] font-semibold text-[30.95px] leading-[160%] tracking-[0%] text-[#55578D]">
+                        True or false? This play takes place in Italy
+                      </p>
+                    </div>
+                    <div  className="w-[456.04px] h-[255.63px] absolute top-[204.33px] left-[2.48px] rounded-[18.21px] opacity-100">
+                      <img src={maskgroup} alt="maskgroup" />
+                    </div>
+                    <div className="w-[365.03px] h-[119.76px] absolute top-[400.98px] left-[200.97px] opacity-100">
+                      <img src={group89} alt="Group 89" />
+                    </div>
+                    <div className="w-[16.29px] h-[16.29px] absolute top-[245.32px] left-[470.85px] opacity-100">
+                       <img src={ellipse108} alt="Ellipse 108" />
+                    </div>
+                    <div className="w-[19.16px] h-[19.16px] absolute top-[534.33px] left-[-30.57px] opacity-100">
+                       <img src={ellipse105} alt="Ellipse 105" />
+                    </div>
+                    <div className="w-[596px] h-[268px] absolute top-[5928px] left-[1057px] opacity-100 text-left">
+                      <div className="w-[347px] h-[128px] absolute top-[-5928px] left-[-257px] opacity-100">
+                        <p  className="font-[Poppins] font-semibold text-[40px] leading-[160%] tracking-[0%]">
+                          <span className='text-[#2F327D]'>
+                            Assesments,
+                          </span>
+                          <br></br>
+                          <span className='text-[#F48C06]'>
+                            Quizes
+                          </span>
+                           <span className='text-[#2F327D]'>
+                            ,{' '}Tests
+                          </span>
+                        </p>
+                      </div>
+                      <div className="w-[596px] h-[120px] absolute top-[-5776px] left-[-257px] opacity-100">
+                        <p className="font-[400] text-[22px] leading-[180%] tracking-[0.02em] font-[Poppins] text-[#696984]">
+                          Easily launch live assignments, quizzes, and tests.
+                          Student results are automatically entered in the online gradebook.
+                        </p>
+                      </div>
+                    </div>
+                </div>
+                
+              </div>
+            </div>
           </div>          
       </div>
     </>
