@@ -51,7 +51,17 @@ import group32 from './assets/Group 32.png';
 import maskgroup2 from './assets/Mask Group 2.png';
 import rectangle30 from './assets/Rectangle 30.png';
 import group29 from './assets/Group 29.png';
+import group39 from './assets/Group 39.png';
+import group40 from './assets/Group 40.png';
 import line3 from './assets/Line 3.png';
+import group42 from './assets/Group 42.png';
+import group43 from './assets/Group 43.png';
+import group44 from './assets/Group 44.png';
+import rectangle33 from './assets/Rectangle 33.png';
+import rectangle39 from './assets/Rectangle 39.png';
+import group45 from './assets/Group 45.png';
+import group46 from './assets/Group 46.png';
+import cat from './assets/Cat.png';
 import './App.css'
 
 function App() {
@@ -710,8 +720,89 @@ function App() {
               </div>
             </div>
           </div>
-                    
-      </div>
+          <div>
+          <div className='w-[478px] h-[65px] absolute top-[10813px] left-[721px] rotate-0 opacity-100'>
+            <span className='font-[Nunito_Sans] font-bold text-[36px] leading-[180%] tracking-[0%] text-[#2F327D]'>
+              Lastest News and Resources
+            </span>
+          </div>
+          <div className='w-[706px] h-[43px] absolute top-[10898px] left-[607px] rotate-0 opacity-100'>
+            <span className='font-[Nunito_Sans] font-normal text-[24px] leading-[180%] tracking-[0%] text-center text-[#696984]'>
+              See the developments that have occurred to Skillines in the world
+            </span>
+          </div>  
+          <div className='w-[640px] h-[340px] absolute top-[11041px] left-[190px] rotate-0 opacity-100 rounded-[20px]'>
+            <img src={group40} />
+          </div>
+          <div className='w-[130px] h-[40px] absolute top-[11421px] left-[190px] rotate-0 opacity-100 rounded-[80px]'>
+            <img src={group39} />
+          </div>
+          <div className="w-[609px] h-[94px] top-[11481px] left-[200px] absolute opacity-100 rotate-0 text-left">
+            <p className="font-[Poppins] font-medium text-[26px] leading-[180%] tracking-[0%] text-[#252641]">
+              Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution
+            </p>
+          </div>
+          <div className="w-[609px] h-[72px] top-[11595px] left-[200px] absolute opacity-100 rotate-0 text-left">
+            <p className="font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[2%] text-[#696984]">
+              Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...
+            </p>
+          </div>
+          <div className="w-[118px] h-[36px] top-[11695px] left-[200px] absolute opacity-100 rotate-0">
+            <p className="font-[Poppins] font-normal text-[22px] leading-[180%] underline underline-offset-[0%] decoration-[0%] decoration-solid text-left text-[#696984] cursor-pointer">
+                Read More
+            </p>
+          </div>
+          <div className="w-[280px] h-[200px] top-[11041px] left-[960px] absolute opacity-100 rotate-0 rounded-[20px]">
+            <img src={rectangle33} alt="Rectangle 33" />
+          </div>
+          <div className="w-[477px] h-[80px] top-[11041px] left-[1280px] absolute opacity-100 rotate-0 text-left">
+            <p className="font-[Poppins] font-medium text-[22px] leading-[180%] tracking-[0%] text-[#252641]">
+              Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand
+            </p>
+          </div>
+          <div className="w-[447px] h-[72px] top-[11141px] left-[1280px] absolute opacity-100 rotate-0 text-left">
+            <p className="font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0.4px] text-[#696984]">
+              Class Technologies Inc., the company that created Class,...
+            </p>
+          </div>
+          <div className="w-[154px] h-[34px] top-[11187px] left-[1066px] absolute opacity-100 rotate-0 rounded-[80px]">
+            <img src={group44} />
+          </div>
+          <div className="w-[280px] h-[200px] top-[11291px] left-[960px] absolute opacity-100 rotate-0 rounded-[20px]">
+            <img src={group42} />
+          </div>
+          <div className="w-[477px] h-[80px] top-[11291px] left-[1280px] absolute opacity-100 rotate-0 text-left">
+            <p className="font-[Poppins] font-medium text-[22px] leading-[180%] tracking-[0%] text-[#252641]">
+              Zoom’s earliest investors are betting millions on a better Zoom for schools
+            </p>
+          </div>
+          <div className="w-[447px] h-[72px] top-[11391px] left-[1280px] absolute opacity-100 rotate-0 text-left">
+            <p className="font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0.4px] text-[#696984]">
+              Class Technologies Inc., the company that created Class,...
+            </p>
+          </div>
+          <div className="w-[100px] h-[34px] top-[11437px] left-[1120px] absolute opacity-100 rotate-0 rounded-[80px]">
+            <img src={group45} />
+          </div>
+          <div className='w-[280px] h-[200px] absolute top-[11541px] left-[960px] rotate-0 opacity-100 rounded-[20px]'>
+            <img src={cat} />
+          </div>
+          <div className='w-[100px] h-[34px] absolute top-[11687px] left-[1120px] rotate-0 opacity-100 rounded-[80px]'>
+            <img src={group46}/>
+          </div>
+          <div className='w-[477px] h-[80px] absolute top-[11541px] left-[1280px] rotate-0 opacity-100 text-left'>
+            <span className='font-[Poppins] font-medium text-[22px] leading-[180%] tracking-[0em] text-[#252641]'>
+              Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms
+            </span>
+          </div>
+          <div className='w-[447px] h-[72px] absolute top-[11641px] left-[1280px] rotate-0 opacity-100 text-left'>
+            <span className='font-[Poppins] font-normal text-[20px] leading-[180%] tracking-[0.02em] text-[#696984]'>
+              This year, investors have reaped big financial returns from betting on Zoom...
+            </span>
+          </div>
+          
+    </div>
+</div>
     </>
   )
 }
