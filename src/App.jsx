@@ -62,6 +62,9 @@ import rectangle39 from './assets/Rectangle 39.png';
 import group45 from './assets/Group 45.png';
 import group46 from './assets/Group 46.png';
 import cat from './assets/Cat.png';
+import group115 from './assets/Group 115.png';
+import group116 from './assets/Group 116.png';
+import group114 from './assets/Group 114.png';
 import './App.css'
 
 function App() {
@@ -800,7 +803,36 @@ function App() {
               This year, investors have reaped big financial returns from betting on Zoom...
             </span>
           </div>
-          
+
+          <div className="w-[1920px] h-[593px] top-[11901px] absolute opacity-100 rotate-0 bg-[#252641]">
+          </div>
+            <div className="w-[388px] h-[83px] top-[11975px] left-[766px] rounded-[6px] rotate-0 opacity-100 absolute">
+              <img src={group115} />
+            </div>
+            <div  className="w-[440px] h-[39px] top-[12153px] left-[740px] rotate-0 opacity-100 absolute">
+              <p className="font-[Poppins] font-medium text-[26px] leading-[100%] tracking-[4%] text-center text-[#B2B3C5]">
+                Subscribe to get our Newsletter
+              </p>
+            </div>
+            <div className="w-[400px] h-[60px] top-[12212px] left-[661px] rounded-[80px] rotate-0 opacity-100 border border-[#83839A] absolute">
+            </div>
+            <div className="w-[112px] h-[30px] top-[12227px] left-[691px] rotate-0 opacity-100 absolute">
+              <p className="font-[Poppins] font-normal text-[20px] leading-[100%] tracking-[4%] text-center text-[#83839A]">
+                  <input type='text' placeholder='Your email'/>
+              </p>
+            </div>
+            <div className="mw-[179px] h-[60px] top-[12190px] left-[1041px] rounded-[60px] rotate-0 opacity-100 absolute
+            hover:scale-105 transition duration-200 cursor-pointer">
+              <img src={group116} />
+            </div>
+            <div className="w-[564px] h-[33px] top-[12368px] left-[678px] rotate-0 opacity-100 absolute">
+              <img src={group114} />
+            </div>
+            <div className="w-[358px] h-[33px] top-[12421px] left-[775px] rotate-0 opacity-100 absolute">
+              <p className="font-[Poppins] font-normal text-[22px] leading-[100%] tracking-[4%] text-center text-[#B2B3CF]">
+                © 2021 Class Technologies Inc. 
+              </p>
+            </div>
     </div>
 </div>
     </>
